@@ -11,8 +11,7 @@ interface IconContainerProps {
 }
 
 export const IconContainer = styled.div<IconContainerProps>`
-    width: 2rem;
-    height: 2rem;
+    padding: 0.5rem;
     border-radius: 50%;
 
     background: ${ ({iconBg} ) => iconBg};
@@ -21,4 +20,8 @@ export const IconContainer = styled.div<IconContainerProps>`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 768px) {
+        padding: 0.4rem;
+    }
 `;

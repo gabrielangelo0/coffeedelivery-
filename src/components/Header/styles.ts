@@ -15,6 +15,10 @@ export const HeaderContainer = styled.div<{ theme: ThemeType}>`
     top: 0;
     left: 0;
     z-index: 5;
+
+    @media (max-width: 768px) {
+            padding: 1rem;
+        }
 `;
 
 export const NavContainer = styled(ContainerMain)<{ theme: ThemeType}>`
