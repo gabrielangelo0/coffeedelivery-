@@ -37,7 +37,7 @@ export const Tags = styled.div`
         font-size: ${( {theme} ) => theme.textSizes["components-tag"]};
         text-transform: uppercase;
         padding: 0.25rem 0.5rem;
-        border-radius: 50%;
+        border-radius: 20px;
         font-weight: 700;
     }
 `;
