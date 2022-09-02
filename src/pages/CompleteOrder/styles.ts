@@ -23,6 +23,6 @@ export const SectionBaseStyle = styled.div`
     padding: 2.5rem;
 
     @media (max-width: 768px) {
-        padding: 2.5rem 1rem;
+        padding: 2.5rem 0.5rem;
     }
 `;
